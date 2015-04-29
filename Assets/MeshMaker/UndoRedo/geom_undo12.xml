@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework>
+  <frameworkPositionX>0.0196723342</frameworkPositionX>
+  <frameworkPositionY>4.45604229</frameworkPositionY>
+  <frameworkPositionZ>35.95085</frameworkPositionZ>
+  <numGrids>1</numGrids>
+  <numPoints>8</numPoints>
+  <undoName>Moved Point</undoName>
+  <gridPositions>
+    <gridPositionX>0</gridPositionX>
+    <gridPositionY>0</gridPositionY>
+    <gridPositionZ>0</gridPositionZ>
+  </gridPositions>
+  <gridRotations>
+    <gridRotationX>0</gridRotationX>
+    <gridRotationY>0</gridRotationY>
+    <gridRotationZ>0</gridRotationZ>
+  </gridRotations>
+  <gridScales>
+    <gridScaleX>1</gridScaleX>
+    <gridScaleY>1</gridScaleY>
+    <gridScaleZ>1</gridScaleZ>
+  </gridScales>
+  <gridNames>
+    <gridName>Grid 1</gridName>
+  </gridNames>
+  <points>
+    <pointX>0.988</pointX>
+    <pointY>0</pointY>
+    <pointZ>0.588001251</pointZ>
+  </points>
+  <points>
+    <pointX>0.912</pointX>
+    <pointY>0</pointY>
+    <pointZ>0.644001</pointZ>
+  </points>
+  <points>
+    <pointX>0.8552001</pointX>
+    <pointY>0</pointY>
+    <pointZ>0.649200439</pointZ>
+  </points>
+  <points>
+    <pointX>0.81520015</pointX>
+    <pointY>0</pointY>
+    <pointZ>0.639598846</pointZ>
+  </points>
+  <points>
+    <pointX>0.752</pointX>
+    <pointY>0</pointY>
+    <pointZ>0.5999985</pointZ>
+  </points>
+  <points>
+    <pointX>0.8312001</pointX>
+    <pointY>0</pointY>
+    <pointZ>0.5915985</pointZ>
+  </points>
+  <points>
+    <pointX>0.869600058</pointX>
+    <pointY>0</pointY>
+    <pointZ>0.579799652</pointZ>
+  </points>
+  <points>
+    <pointX>0.908</pointX>
+    <pointY>0</pointY>
+    <pointZ>0.5680008</pointZ>
+  </points>
+</Framework>
