@@ -17,8 +17,7 @@ public class OpenDoor : MonoBehaviour {
     public float        OpenningAngle = 90;
     public float        Speed = 5;
     public eDoorState   InitialState = eDoorState.eClosed;
-
-    private float       m_fElapsed = 0;
+    
     private eDoorState  m_eCurrentState;
     private eDoorState  m_eTargetState;
     private Quaternion  m_targetRotation;
