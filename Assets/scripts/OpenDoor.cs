@@ -23,13 +23,14 @@ public class OpenDoor : MonoBehaviour {
     private Quaternion  m_targetRotation;
     private TimeBar     m_cmpTimer;
 
+    public eDoorState GetDoorState() { return m_eCurrentState; }
+
     // Use this for initialization
 	void Start () {
 
         m_eCurrentState = InitialState;
 
-        m_cmpTimer = Opener.GetComponent<TimeBar>();
-        //m_cmpTimer = (TimeBar)GameObject.FindObjectOfType(typeof(TimeBar));
+        m_cmpTimer = Opener.GetComponent<TimeBar>();        
 
         if (m_eCurrentState == eDoorState.eOpened)
         {
@@ -53,13 +54,11 @@ public class OpenDoor : MonoBehaviour {
         if (m_eCurrentState != eDoorState.eMoving)
         {
             CheckLookOpener();
-
-            //if (m_fElapsed >= LookingTime)
+            
             if (m_cmpTimer.CountdownTime == 0.0f)
             {
                 ToogleState();
-                m_cmpTimer.StopCount();
-                // m_fElapsed = 0;
+                m_cmpTimer.StopCount();                
             }
         }
     }
@@ -67,11 +66,6 @@ public class OpenDoor : MonoBehaviour {
     private void CheckLookOpener()
     {
         RaycastHit hit;
-
-       /* if (GlobalData.CameraUtil.IsLookingAtInteract(Opener, out hit))        
-            m_fElapsed += Time.deltaTime;
-        else
-            m_fElapsed = 0;*/
 
         if (GlobalData.CameraUtil.IsLookingAtInteract(Opener, out hit))
         {
@@ -89,7 +83,7 @@ public class OpenDoor : MonoBehaviour {
         
     }
 
-    private void ToogleState()
+    public void ToogleState()
     {
         switch (m_eCurrentState)
         {
