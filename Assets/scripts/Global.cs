@@ -3,12 +3,20 @@ using System.Collections;
 
 namespace GlobalData
 {
+    public enum InteractuableEvents
+    {
+        AddSecurityCard
+        
+
+    };
+
     public static class Constants
     {        
         public static string    ENEMY_TAG = "Enemy";
         public static int       INTERACTUABLE_COLLIDER_LAYER = 8;        
 
     }
+
     public static class CameraUtil
     {
         public static bool IsLookingAtInteract(GameObject target, out RaycastHit hit)
