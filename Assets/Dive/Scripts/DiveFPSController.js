@@ -34,7 +34,7 @@ public var reload_once:int=0;
 
 function Awake () {
 	controller = GetComponent (CharacterController);
-	Debug.Log("Controller Slopelimit"+controller.slopeLimit);
+	//Debug.Log("Controller Slopelimit"+controller.slopeLimit);
 }
 
 function toggle_autowalk(){
@@ -261,7 +261,7 @@ function OnGUI () {
 	
        var e : Event = Event.current;
 		if (e.isKey) {
-			Debug.Log("Detected key code: " + e.keyCode);
+			//Debug.Log("Detected key code: " + e.keyCode);
 			GUI.Label (Rect (10, 10, 400, 20), "Keycode ="+ e.keyCode );
 
 	

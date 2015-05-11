@@ -6,8 +6,10 @@ public class Interactuable : MonoBehaviour {
     
     public GameObject           MessageText;
     public float                LookingTime;
-    public InteractuableEvents  Event;
+    public GameObject           VisibleTrigger;
+    public InteractuableEvents  ObjectEvent;
 
+    private bool m_bEventTriggered = false;
     private TimeBar m_cmpTimer;
 
     // Use this for initialization
@@ -31,6 +33,8 @@ public class Interactuable : MonoBehaviour {
     void OnTriggerExit(Collider other)
     {
         MessageText.SetActive(false);
+        m_bEventTriggered = false;
+        gameObject.GetComponent<Renderer>().sharedMaterial.color = Color.white;
     }
 
     void OnTriggerStay(Collider other)
@@ -39,7 +43,9 @@ public class Interactuable : MonoBehaviour {
 
         if (m_cmpTimer.CountdownTime == 0.0f)
         {
-            //DoorToOpen.GetComponent<OpenDoor>().ToogleState();
+            GlobalData.GameEventsCall.TriggerEvent(ObjectEvent);
+            m_bEventTriggered = true;
+            gameObject.GetComponent<Renderer>().sharedMaterial.color = Color.white;
             m_cmpTimer.StopCount();
         }
     }
@@ -48,8 +54,12 @@ public class Interactuable : MonoBehaviour {
     {
         RaycastHit hit;
 
-        if (GlobalData.CameraUtil.IsLookingAtInteract(gameObject, out hit))
-        {            
+        if (m_bEventTriggered == true) return;
+
+        if (GlobalData.CameraUtil.IsLookingAtInteract(VisibleTrigger, out hit))
+        {                        
+            gameObject.GetComponent<Renderer>().sharedMaterial.color = Color.green;            
+            
             //if time bar is stoped
             if (m_cmpTimer.CountdownTime == -1.0f)
             {
@@ -58,7 +68,9 @@ public class Interactuable : MonoBehaviour {
             }
         }
         else
-        {            
+        {
+            gameObject.GetComponent<Renderer>().sharedMaterial.color = Color.white;
+
             m_cmpTimer.StopCount();
         }
 

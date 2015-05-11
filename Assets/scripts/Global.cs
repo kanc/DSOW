@@ -5,8 +5,7 @@ namespace GlobalData
 {
     public enum InteractuableEvents
     {
-        AddSecurityCard
-        
+        GetSecurityCard        
 
     };
 
@@ -31,6 +30,26 @@ namespace GlobalData
             else
             {
                 return false;
+            }
+        }
+    }
+
+    public static class GameEventsCall
+    {
+        public static void TriggerEvent(InteractuableEvents eventId)
+        {
+            GameEvents game = null; 
+            game = (GameEvents)GameObject.FindObjectOfType(typeof(GameEvents));
+
+            if (game == null)
+            {
+                GameObject gameEventObj = new GameObject("Game Events Obj");
+                game = gameEventObj.AddComponent<GameEvents>();
+            }
+
+            switch (eventId)
+            {
+                case InteractuableEvents.GetSecurityCard: game.GetSecurityCard(); break;
             }
         }
     }
