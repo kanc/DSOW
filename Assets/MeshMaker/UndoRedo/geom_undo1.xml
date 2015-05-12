@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework>
-  <frameworkPositionX>-8.04043</frameworkPositionX>
-  <frameworkPositionY>1.51506186</frameworkPositionY>
-  <frameworkPositionZ>27.8760777</frameworkPositionZ>
+  <frameworkPositionX>-5.653025</frameworkPositionX>
+  <frameworkPositionY>2.9722352</frameworkPositionY>
+  <frameworkPositionZ>53.1011353</frameworkPositionZ>
   <numGrids>1</numGrids>
   <numPoints>12</numPoints>
-  <undoName>Add</undoName>
+  <undoName>Moved Point</undoName>
   <gridPositions>
     <gridPositionX>0</gridPositionX>
     <gridPositionY>0</gridPositionY>

@@ -9,7 +9,7 @@ public class OffsetCenter : MonoBehaviour {
 	public Camera cameraleft;
 	public Camera cameraright;
 
-	private float correctionfactor;
+	//private float correctionfactor;
 	public static OffsetCenter instance;
 
 	public void Start(){
@@ -60,7 +60,7 @@ public class OffsetCenter : MonoBehaviour {
 	public void setCorrectionFactor(float fac){
 		//offset=max_offset*fac;
 		offset = fac * 10;
-		correctionfactor=fac;
+		//correctionfactor=fac;
 		SetVanishingPoint(cameraleft, new Vector2(offset, 0.0f));
 		SetVanishingPoint(cameraright, new Vector2(-offset, 0.0f));
 	}

@@ -57,7 +57,7 @@ public class Interactuable : MonoBehaviour {
         if (m_bEventTriggered == true) return;
 
         if (GlobalData.CameraUtil.IsLookingAtInteract(VisibleTrigger, out hit))
-        {                        
+        {
             gameObject.GetComponent<Renderer>().sharedMaterial.color = Color.green;            
             
             //if time bar is stoped

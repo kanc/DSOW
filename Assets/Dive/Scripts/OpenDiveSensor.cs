@@ -40,7 +40,7 @@ public class OpenDiveSensor : MonoBehaviour
 	private Quaternion rot;
 	private Quaternion centerTransition = Quaternion.identity;
 
-	private int is_tablet;
+	private int is_tablet = 0;
 
 #if UNITY_EDITOR
 #elif UNITY_ANDROID

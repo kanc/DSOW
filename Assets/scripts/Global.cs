@@ -5,8 +5,10 @@ namespace GlobalData
 {
     public enum InteractuableEvents
     {
-        GetSecurityCard        
-
+        GetSecurityCard,
+        GetReceptionNote,
+        GetFernandoClue,
+        GetITKey
     };
 
     public static class Constants
@@ -23,7 +25,7 @@ namespace GlobalData
             Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);            
             int layerMask = 1 << GlobalData.Constants.INTERACTUABLE_COLLIDER_LAYER;
 
-            if (Physics.Raycast(ray, out hit, 100, layerMask))
+            if (Physics.Raycast(ray, out hit, 1000, layerMask))
             {                
                 return (hit.collider.gameObject.GetInstanceID() == target.GetInstanceID()) ? true : false;
             }
@@ -49,7 +51,11 @@ namespace GlobalData
 
             switch (eventId)
             {
-                case InteractuableEvents.GetSecurityCard: game.GetSecurityCard(); break;
+                case InteractuableEvents.GetSecurityCard:   game.GetSecurityCard();     break;
+                case InteractuableEvents.GetReceptionNote:  game.GetReceptionNote();    break;
+                case InteractuableEvents.GetFernandoClue:   game.GetFernandoClue();     break;
+                case InteractuableEvents.GetITKey:          game.GetITKey();            break;
+
             }
         }
     }

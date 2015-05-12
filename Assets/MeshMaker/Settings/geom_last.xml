@@ -7,9 +7,9 @@
     <incrementRotationX>0</incrementRotationX>
     <incrementRotationY>0</incrementRotationY>
     <incrementRotationZ>0</incrementRotationZ>
-    <incrementScaleX>2</incrementScaleX>
-    <incrementScaleY>2</incrementScaleY>
-    <incrementScaleZ>2</incrementScaleZ>
+    <incrementScaleX>1</incrementScaleX>
+    <incrementScaleY>1</incrementScaleY>
+    <incrementScaleZ>1</incrementScaleZ>
     <textureFileName>C:/Users/descalona/Desktop/DSOW/yjTxryqiE (1).jpg</textureFileName>
     <show2DFlag>true</show2DFlag>
     <spline2DColorRed>0.0156862736</spline2DColorRed>
@@ -32,7 +32,7 @@
     <smoothNormalsFlag>true</smoothNormalsFlag>
     <maxSmoothAngle>45</maxSmoothAngle>
     <uvMappingType>0</uvMappingType>
-    <meshName>connoluz</meshName>
+    <meshName>llave</meshName>
     <pivotPointX>0</pivotPointX>
     <pivotPointY>0</pivotPointY>
     <pivotPointZ>0</pivotPointZ>

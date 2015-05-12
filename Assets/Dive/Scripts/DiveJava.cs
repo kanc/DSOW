@@ -6,8 +6,6 @@ using System;
 
 public class DiveJava : MonoBehaviour {
 
-	private string cacheDir = "Push to get cache dir";
-	private string startURI = "Push to get startURI";
 	private static int start_once;
 	public float time_since_last_fullscreen=0;
 	public bool autoCorrectOffset=true;
@@ -18,10 +16,10 @@ public class DiveJava : MonoBehaviour {
 	private static int vpixels;
 	private static int hpixels;
 	private static float scaledDensity;
-	private static float ydpi;
-	private static float xdpi;
-	private static float xmm;
-	private static float ymm;
+	private static float ydpi = 0;
+	private static float xdpi = 0;
+	private static float xmm = 0;
+	private static float ymm = 0;
 	private static float mmdist;
 	private static GameObject infotext;
 	private static float correction_factor = 0.0f;
