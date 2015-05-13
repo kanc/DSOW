@@ -27,7 +27,8 @@ public class Interactuable : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        MessageText.SetActive(true);
+        if (other.gameObject.GetComponent<Player>() != null)
+            MessageText.SetActive(true);
     }
 
     void OnTriggerExit(Collider other)

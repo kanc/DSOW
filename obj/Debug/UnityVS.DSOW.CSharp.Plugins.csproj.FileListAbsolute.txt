@@ -11,3 +11,16 @@ C:\David\U5Prjs\TTD\DSOW\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode
 C:\David\U5Prjs\TTD\DSOW\obj\Debug\UnityVS.DSOW.CSharp.Plugins.csprojResolveAssemblyReference.cache
 C:\David\U5Prjs\TTD\DSOW\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\David\U5Prjs\TTD\DSOW\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\David\U5Prjs\DSOW\obj\Debug\UnityVS.DSOW.CSharp.Plugins.csprojResolveAssemblyReference.cache
+C:\David\U5Prjs\DSOW\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\David\U5Prjs\DSOW\obj\Debug\Assembly-CSharp-firstpass.pdb

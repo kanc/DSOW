@@ -8,7 +8,12 @@ namespace GlobalData
         GetSecurityCard,
         GetReceptionNote,
         GetFernandoClue,
-        GetITKey
+        GetITKey,
+        GetITNote,
+        ShowEliasFaceInScreen,
+        MoveZombie,
+        PlayIndepenceSound,
+        PlayScreamSound        
     };
 
     public static class Constants
@@ -51,10 +56,13 @@ namespace GlobalData
 
             switch (eventId)
             {
-                case InteractuableEvents.GetSecurityCard:   game.GetSecurityCard();     break;
-                case InteractuableEvents.GetReceptionNote:  game.GetReceptionNote();    break;
-                case InteractuableEvents.GetFernandoClue:   game.GetFernandoClue();     break;
-                case InteractuableEvents.GetITKey:          game.GetITKey();            break;
+                case InteractuableEvents.GetSecurityCard:       game.GetSecurityCard();     break;
+                case InteractuableEvents.GetReceptionNote:      game.GetReceptionNote();    break;
+                case InteractuableEvents.GetFernandoClue:       game.GetFernandoClue();     break;
+                case InteractuableEvents.GetITKey:              game.GetITKey();            break;
+                case InteractuableEvents.GetITNote:             game.GetITNote();           break;
+                case InteractuableEvents.ShowEliasFaceInScreen: game.ShowEliasZombieFace(); break;
+                case InteractuableEvents.MoveZombie:            game.MoveZombie();          break;
 
             }
         }
