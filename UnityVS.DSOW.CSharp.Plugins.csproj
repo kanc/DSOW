@@ -159,6 +159,8 @@
   <ItemGroup>
     <None Include="Assets\Dive\LICENCE.TXT" />
     <None Include="Assets\Dive\README.TXT" />
+    <None Include="Assets\MeshBaker\README.txt" />
+    <None Include="Assets\MeshBaker\Release Notes.txt" />
     <None Include="Assets\MeshMaker\Documentation\readme.txt" />
     <None Include="Assets\MeshMaker\Frameworks\agility.xml" />
     <None Include="Assets\MeshMaker\Frameworks\Shapes\Circle.xml" />

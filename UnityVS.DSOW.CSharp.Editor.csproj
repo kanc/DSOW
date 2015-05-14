@@ -114,13 +114,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityVS.DSOW.CSharp.Plugins.csproj">
-      <Project>{97172C09-03C7-DBE5-C4C5-3D8EBB764D14}</Project>
-      <Name>UnityVS.DSOW.CSharp.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityVS.DSOW.CSharp.csproj">
       <Project>{8260F5DC-C5F9-37B0-B03A-88010BD841B0}</Project>
       <Name>UnityVS.DSOW.CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.DSOW.CSharp.Plugins.csproj">
+      <Project>{97172C09-03C7-DBE5-C4C5-3D8EBB764D14}</Project>
+      <Name>UnityVS.DSOW.CSharp.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -138,10 +138,37 @@
     <Compile Include="Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
     <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
     <Compile Include="Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_BatchPrefabBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_DisableHiddenAnimationsEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_GameObjectMaterialInfo.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MBVersionConcreteEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerEditorInternal.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerEditorWindow.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerGrouperEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MultiMeshBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_SearchFilters.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_ShaderTexturePropertyDrawer.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_TextureBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_TextureBakerEditorInternal.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB3_BakeInPlace.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB3_MBVersionEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB3_MeshBakerEditorFunctions.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB3_TextureCombinerEditorFunctions.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB_EditorUtil.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByAlreadyAdded.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByLightmapIndex.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByMaterial.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByOutOfBoundsUVs.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByRenderType.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByShader.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByStatic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Dive\LICENCE.TXT" />
     <None Include="Assets\Dive\README.TXT" />
+    <None Include="Assets\MeshBaker\README.txt" />
+    <None Include="Assets\MeshBaker\Release Notes.txt" />
     <None Include="Assets\MeshMaker\Documentation\readme.txt" />
     <None Include="Assets\MeshMaker\Frameworks\agility.xml" />
     <None Include="Assets\MeshMaker\Frameworks\Shapes\Circle.xml" />
