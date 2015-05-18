@@ -85,12 +85,6 @@
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -115,18 +109,21 @@
     <Reference Include="UnityVS.VersionSpecific">
       <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-UnityScript">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityVS.DSOWPrj.CSharp.Plugins.csproj">
-      <Project>{C92D2A79-BDB1-DED3-09DE-D39F73E0EF18}</Project>
-      <Name>UnityVS.DSOWPrj.CSharp.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityVS.DSOWPrj.CSharp.csproj">
       <Project>{F4254917-5DF2-485A-6FB1-4A7359B168F2}</Project>
       <Name>UnityVS.DSOWPrj.CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.DSOWPrj.CSharp.Plugins.csproj">
+      <Project>{C92D2A79-BDB1-DED3-09DE-D39F73E0EF18}</Project>
+      <Name>UnityVS.DSOWPrj.CSharp.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -144,10 +141,38 @@
     <Compile Include="Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
     <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
     <Compile Include="Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_BatchPrefabBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_DisableHiddenAnimationsEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_GameObjectMaterialInfo.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MBVersionConcreteEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerEditorInternal.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerEditorWindow.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerGrouperEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MultiMeshBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_SearchFilters.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_ShaderTexturePropertyDrawer.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_TextureBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_TextureBakerEditorInternal.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB3_BakeInPlace.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB3_MBVersionEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB3_MeshBakerEditorFunctions.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB3_TextureCombinerEditorFunctions.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\core\MB_EditorUtil.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByAlreadyAdded.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByLightmapIndex.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByMaterial.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByOutOfBoundsUVs.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByRenderType.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByShader.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByStatic.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\animations time list.txt" />
     <None Include="Assets\Dive\LICENCE.TXT" />
     <None Include="Assets\Dive\README.TXT" />
+    <None Include="Assets\MeshBaker\README.txt" />
+    <None Include="Assets\MeshBaker\Release Notes.txt" />
     <None Include="Assets\MeshMaker\Documentation\readme.txt" />
     <None Include="Assets\MeshMaker\Frameworks\agility.xml" />
     <None Include="Assets\MeshMaker\Frameworks\Shapes\Circle.xml" />
@@ -176,6 +201,46 @@
     <None Include="Assets\MeshMaker\Settings\geom_default.xml" />
     <None Include="Assets\MeshMaker\Settings\geom_last.xml" />
     <None Include="Assets\MeshMaker\UndoRedo\geom_undo1.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo10.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo11.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo12.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo13.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo14.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo15.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo16.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo17.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo18.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo19.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo2.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo20.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo21.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo22.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo23.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo24.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo25.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo26.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo27.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo28.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo29.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo3.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo30.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo31.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo32.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo33.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo34.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo35.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo36.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo37.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo38.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo39.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo4.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo40.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo41.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo5.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo6.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo7.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo8.xml" />
+    <None Include="Assets\MeshMaker\UndoRedo\geom_undo9.xml" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
@@ -262,5 +327,5 @@
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

@@ -17,6 +17,7 @@ public class OpenDoor : MonoBehaviour {
     public float        OpenningAngle = 90;
     public float        Speed = 5;
     public eDoorState   InitialState = eDoorState.eClosed;
+    public GameObject   TextDoor;
     
     private eDoorState  m_eCurrentState;
     private eDoorState  m_eTargetState;
@@ -30,7 +31,10 @@ public class OpenDoor : MonoBehaviour {
 
         m_eCurrentState = InitialState;
 
-        m_cmpTimer = Opener.GetComponent<TimeBar>();        
+        m_cmpTimer = Opener.GetComponent<TimeBar>();
+
+        if (TextDoor != null)
+            TextDoor.SetActive(false);
 
         if (m_eCurrentState == eDoorState.eOpened)
         {
@@ -48,6 +52,20 @@ public class OpenDoor : MonoBehaviour {
         }
 	
 	}
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (TextDoor != null && other.gameObject.GetComponent<Player>() != null)
+            TextDoor.SetActive(true);
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (TextDoor != null)
+            TextDoor.SetActive(false);
+    }
+
+
 
     void OnTriggerStay(Collider other)
     {
@@ -90,11 +108,13 @@ public class OpenDoor : MonoBehaviour {
             case eDoorState.eClosed :             
                 m_targetRotation = DoorPivot.transform.rotation * Quaternion.AngleAxis(OpenningAngle, Vector3.up);
                 m_eTargetState = eDoorState.eOpened;
+                GlobalData.GameEventsCall.TriggerEvent(InteractuableEvents.OpenDoor);
                 break;
 
             case eDoorState.eOpened :
                 m_targetRotation = DoorPivot.transform.rotation * Quaternion.AngleAxis(-OpenningAngle, Vector3.up);
                 m_eTargetState = eDoorState.eClosed;
+                GlobalData.GameEventsCall.TriggerEvent(InteractuableEvents.CloseDoor);
                 break;
         }
 

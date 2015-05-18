@@ -11,13 +11,53 @@ public class GameEvents : MonoBehaviour {
     public GameObject ITKey;
     public GameObject ITDoor;
     public GameObject WCDoor;
+    public Transform WCDummy;
+    public GameObject corpse;
     public Texture EliasZombieFace;
+    public AudioClip Musica;
+    public AudioClip IndependenciaSnd;
+    public AudioClip Fx1;
+    public AudioClip Fx2;
+    public AudioClip step1;
+    public AudioClip step2;
+    public AudioClip openDoorSnd;
+    public AudioClip closeDoorSnd;
+    public AudioSource BackSource;
+    public AudioSource StepsSource;
     public GUIStyle MyGUIStyle;
 
+    private GameObject m_Zombie;
+    private float m_fElapsedSteps;
+    private bool m_bStep1 = true;
+
+
+    public void OpenDoorSound()
+    {
+        BackSource.PlayOneShot(openDoorSnd,0.2f);
+    }
+    public void CloseDoorSound()
+    {
+        
+        BackSource.PlayOneShot(closeDoorSnd,0.2f);
+        BackSource.PlayDelayed(0.5f);
+    }
     public void MoveZombie()
     {
-        ZombieBehaviour zombie = (ZombieBehaviour)GameObject.FindObjectOfType(typeof(ZombieBehaviour));
-        zombie.MoveForwardAndDisable(6);
+        ZombieBehaviour zombie = m_Zombie.GetComponent<ZombieBehaviour>();
+
+        if (zombie != null)
+            zombie.MoveForwardAndDisable(6);
+    }
+
+    public void PlaceZombieInWC()
+    {
+
+        if (m_Zombie != null)
+        {
+            m_Zombie.gameObject.transform.position = WCDummy.position;
+            m_Zombie.gameObject.transform.rotation = WCDummy.rotation;
+            m_Zombie.gameObject.GetComponent<Animator>().SetTrigger("Eat");
+        }
     }
 
     public void GetSecurityCard()
@@ -39,6 +79,7 @@ public class GameEvents : MonoBehaviour {
         m_bShowMsg = true;
         m_fMessageTime = 25;
         m_sMessage = "“Fernando, estoy muy preocupada. Ya sabemos lo hijo de puta que es este tio, pero lo que ocurre últimamente no es normal. Han desaparecido ya varias personas en Barcelona y ahora otra en Madrid. Fíjate que el otro día me pareció como que intento morderme el muy subnormal. Le he pedido a David si podía revisar las cámaras de seguridad y ver algún comportamiento extraño y me ha dejado una nota en su despacho pero esta la puerta cerrada. Creo que la llave esta en la sala de juntas”";
+        BackSource.PlayOneShot(Fx2, 0.5f);
         ITKey.SetActive(true);
     }
 
@@ -62,16 +103,68 @@ public class GameEvents : MonoBehaviour {
         FernandoClue.SetActive(false);
         ITKey.SetActive(false);
         ITDoor.GetComponent<Collider>().enabled = false;
+        ZombieBehaviour zombie = (ZombieBehaviour)GameObject.FindObjectOfType(typeof(ZombieBehaviour));
+
+        m_Zombie = zombie.gameObject;
+
     }
 
     void Update()
-    {        
+    {
+        m_fElapsedSteps += Time.deltaTime;
+
+        if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f)
+        {
+            if (m_fElapsedSteps > 0.5f)
+            {
+                if (m_bStep1)
+                {
+                    StepsSource.PlayOneShot(step1);
+                }
+                else
+                {
+                    StepsSource.PlayOneShot(step2);
+                }
+
+                m_bStep1 = (m_bStep1) ? false : true;
+                m_fElapsedSteps = 0;
+            }
+        }
+
+        if (PadButton())
+        {
+
+        }
+
+
+    }
+
+    bool PadButton()
+    {
+        if (Input.GetKey(KeyCode.Joystick1Button0) ||
+           Input.GetKey(KeyCode.Joystick1Button1) ||
+           Input.GetKey(KeyCode.Joystick1Button2) ||
+           Input.GetKey(KeyCode.Joystick1Button3) ||
+           Input.GetKey(KeyCode.Joystick1Button4) ||
+           Input.GetKey(KeyCode.Joystick1Button5) ||
+           Input.GetKey(KeyCode.Joystick1Button6) ||
+           Input.GetKey(KeyCode.Joystick1Button7) ||
+           Input.GetKey(KeyCode.Joystick1Button8) ||
+           Input.GetKey(KeyCode.Joystick1Button9))
+
+            return true;
+        else
+            return false;
     }
 
     public void ShowEliasZombieFace()
     {
+        BackSource.PlayOneShot(Fx1);
         m_bShowImage = true;
-        m_fMessageTime = 0.5f;
+        m_fMessageTime = 0.7f;
+        m_Zombie.SetActive(false);
+        corpse.SetActive(false);
+
     }
 
     void OnGUI()
@@ -80,6 +173,7 @@ public class GameEvents : MonoBehaviour {
         {
             m_fMessageTime -= Time.deltaTime;
 
+            //GUI.TextArea(new Rect(0, 0, Screen.width, Screen.height), m_sMessage, MyGUIStyle);
             GUI.TextArea(new Rect(0, 0, Screen.width / 2, Screen.height), m_sMessage, MyGUIStyle);
             GUI.TextArea(new Rect(Screen.width / 2, 0, Screen.width / 2, Screen.height), m_sMessage, MyGUIStyle);
 
@@ -90,13 +184,18 @@ public class GameEvents : MonoBehaviour {
         if (m_bShowImage)
         {
             m_fMessageTime -= Time.deltaTime;
-
+            
             GUI.DrawTexture(new Rect(0, 0, Screen.width / 2, Screen.height), EliasZombieFace);
             GUI.DrawTexture(new Rect(Screen.width / 2, 0, Screen.width / 2, Screen.height), EliasZombieFace);
 
             if (m_fMessageTime <= 0)
                 m_bShowImage = false;
         }
+    }
+
+    public void PlayIndepencia()
+    {
+        BackSource.PlayOneShot(IndependenciaSnd,0.3f);
     }
 }
 

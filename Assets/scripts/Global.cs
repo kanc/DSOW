@@ -13,7 +13,10 @@ namespace GlobalData
         ShowEliasFaceInScreen,
         MoveZombie,
         PlayIndepenceSound,
-        PlayScreamSound        
+        PlayFxSound,
+        PlaceZombieInWC,
+        OpenDoor,
+        CloseDoor,
     };
 
     public static class Constants
@@ -63,6 +66,10 @@ namespace GlobalData
                 case InteractuableEvents.GetITNote:             game.GetITNote();           break;
                 case InteractuableEvents.ShowEliasFaceInScreen: game.ShowEliasZombieFace(); break;
                 case InteractuableEvents.MoveZombie:            game.MoveZombie();          break;
+                case InteractuableEvents.PlaceZombieInWC:       game.PlaceZombieInWC(); break;
+                case InteractuableEvents.PlayIndepenceSound:    game.PlayIndepencia(); break;
+                case InteractuableEvents.OpenDoor:              game.OpenDoorSound(); break;
+                case InteractuableEvents.CloseDoor:             game.CloseDoorSound(); break;
 
             }
         }
