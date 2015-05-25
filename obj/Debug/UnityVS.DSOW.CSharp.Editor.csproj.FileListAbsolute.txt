@@ -82,3 +82,4 @@ C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
 C:\David\U5Prjs\DSOW\obj\Debug\UnityVS.DSOW.CSharp.Editor.csprojResolveAssemblyReference.cache
 C:\David\U5Prjs\DSOW\obj\Debug\Assembly-CSharp-Editor.dll
 C:\David\U5Prjs\DSOW\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\David\U5Prjs\DSOW\Temp\UnityVS_bin\Debug\Assembly-UnityScript-firstpass.dll

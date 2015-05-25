@@ -19,10 +19,24 @@ namespace GlobalData
         CloseDoor,
     };
 
+    public enum ZombieState
+    {
+        Rising,
+        Moving,
+        Attack,
+        Death
+    };
+
     public static class Constants
     {        
         public static string    ENEMY_TAG = "Enemy";
-        public static int       INTERACTUABLE_COLLIDER_LAYER = 8;        
+        public static int       INTERACTUABLE_COLLIDER_LAYER = 8;
+        public static int       GROUND_COLLIDER_LAYER = 9;
+        public static string    ZOMBIE_SPEED_PARAM = "Speed";
+        public static string    ZOMBIE_HIT_PARAM = "Hit";
+        public static string    ZOMBIE_ATTACK_PARAM = "Attacking";
+        public static string    ZOMBIE_DEATH_PARAM = "Death";
+        public static string    ZOMBIE_WALKTYPE_PARAM = "WalkType";
 
     }
 

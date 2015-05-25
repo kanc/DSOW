@@ -1,23 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using GlobalData;
 
 public class ZombieBehaviour : MonoBehaviour {
     
-    private enum ZombieState
-    {
-        Idle,
-        Walk,
-        Attack,
-        Death
-    };
-
     private Vector3 targetPoint;
     private ZombieState state;
 
     // Use this for initialization
 	void Start () {
-        state = ZombieState.Idle;        
+        state = ZombieState.Rising;        
 	}
 	
 	// Update is called once per frame

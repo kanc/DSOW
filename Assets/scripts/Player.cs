@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
-
+    public float Health = 100f;
     private bool m_bAccessCard = true;
 
     // Use this for initialization
@@ -24,5 +24,12 @@ public class Player : MonoBehaviour {
     public void SetAccessCard(bool getted)
     {
         m_bAccessCard = getted;
+    }
+
+    public void DoDamage(float damage)
+    {
+        Health -= damage;
+
+        Debug.Log(Health);
     }
 }
