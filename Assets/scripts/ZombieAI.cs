@@ -3,19 +3,21 @@ using System.Collections;
 
 public class ZombieAI : MonoBehaviour {
 
-    public float Speed;
-    public float InitialHealth;
-    public bool RandomSpeed;
-    public float AttackRangeSquare = 4;
+    public float    Speed;
+    public float    Health;
+    public bool     RandomSpeed;
+    public float    AttackRangeSquare = 4;
+    public float    TimeToDestroyCorpse = 2;
 
-    private float CloseOffset;
-    private GameObject m_Player;
-    private Animator m_Animator;
+    private float       CloseOffset;
+    private GameObject  m_Player;
+    private Animator    m_Animator;    
+    private Vector3     m_vGroundPos;
+    private Vector3     m_vPlayerGround;
+    private float       WalkType;
+    private float       m_fCurrentSpeed;
+    private float       m_fElapsedTime;
     private GlobalData.ZombieState m_eState;
-    private Vector3 m_vGroundPos;
-    private Vector3 m_vPlayerGround;
-    private float WalkType;
-    private float m_fCurrentSpeed;
 
     // Use this for initialization
 	void Start () {
@@ -44,27 +46,31 @@ public class ZombieAI : MonoBehaviour {
         WalkType = Random.value;
 
         //get zombie speed
-        Speed = (RandomSpeed) ? Random.value : Speed;
+        Speed = (RandomSpeed) ? Random.Range(0.0f,2.0f) : Speed;
 
         //initial state
         m_eState = GlobalData.ZombieState.Rising;        
         
 	}
 	
-	// Update is called once per frame
 	void FixedUpdate () 
     {
         switch (m_eState)
         {
-            case GlobalData.ZombieState.Rising: OnUpdateRising(); break;
-            case GlobalData.ZombieState.Moving: OnUpdateMoving(); break;
-            case GlobalData.ZombieState.Attack: OnUpdateAttacking(); break;
-            
-        }	
+            case GlobalData.ZombieState.Rising: OnUpdateRising();       break;
+            case GlobalData.ZombieState.Moving: OnUpdateMoving();       break;
+            case GlobalData.ZombieState.Attack: OnUpdateAttacking();    break;            
+        }
+
+        if (Health <= 0)
+        {
+            ChangeState(GlobalData.ZombieState.Death);
+        }
 	}
 
     void ChangeState(GlobalData.ZombieState newState)
     {
+        //manage state transitions
         switch (m_eState)
         {            
             case GlobalData.ZombieState.Attack: OnExitAttacking(); break;
@@ -74,9 +80,9 @@ public class ZombieAI : MonoBehaviour {
 
         switch (m_eState)
         {
-            case GlobalData.ZombieState.Moving: OnEnterMoving(); break;
+            case GlobalData.ZombieState.Moving: OnEnterMoving();    break;
             case GlobalData.ZombieState.Attack: OnEnterAttacking(); break;
-            case GlobalData.ZombieState.Death: OnEnterDeath(); break;
+            case GlobalData.ZombieState.Death:  OnEnterDeath();     break;
         }
 
     }
@@ -85,19 +91,19 @@ public class ZombieAI : MonoBehaviour {
     {
         AnimatorStateInfo animState = m_Animator.GetCurrentAnimatorStateInfo(0);
 
+        //rising is initial state. When state finish go to move
         if (!animState.IsName("Rising"))
         {
             ChangeState(GlobalData.ZombieState.Moving);
-        }
-            
+        }            
     }
     
     void OnEnterMoving()
     {        
         //send zombie speed to animator controller and walking type
         m_fCurrentSpeed = 0;
-        m_Animator.SetFloat("Speed", m_fCurrentSpeed);
-        m_Animator.SetFloat("WalkType", WalkType);
+        m_Animator.SetFloat(GlobalData.Constants.ZOMBIE_SPEED_PARAM, m_fCurrentSpeed);
+        m_Animator.SetFloat(GlobalData.Constants.ZOMBIE_WALKTYPE_PARAM, WalkType);
     }
 
     void OnUpdateMoving()
@@ -106,7 +112,7 @@ public class ZombieAI : MonoBehaviour {
         if (m_fCurrentSpeed < Speed)
         {            
             m_fCurrentSpeed += Time.deltaTime;
-            m_Animator.SetFloat("Speed", m_fCurrentSpeed);
+            m_Animator.SetFloat(GlobalData.Constants.ZOMBIE_SPEED_PARAM, m_fCurrentSpeed);
         }
         
         //get player position
@@ -140,17 +146,28 @@ public class ZombieAI : MonoBehaviour {
     void OnEnterAttacking()
     {
         //send attack switch to animator controller
-        m_Animator.SetBool("Attacking", true);
+        m_Animator.SetBool(GlobalData.Constants.ZOMBIE_ATTACK_PARAM, true);
     }
 
     void OnExitAttacking()
     {
         //send attack switch to animator controller
-        m_Animator.SetBool("Attacking", false);
+        m_Animator.SetBool(GlobalData.Constants.ZOMBIE_ATTACK_PARAM, false);
     }
 
     void OnEnterDeath()
     {
+        m_Animator.SetTrigger(GlobalData.Constants.ZOMBIE_DEATH_PARAM);
+    }
+
+    void OnUpdateDeath()
+    {
+        m_fElapsedTime += Time.deltaTime;
+
+        if (m_fElapsedTime > TimeToDestroyCorpse)
+        {
+            GameObject.Destroy(gameObject);
+        }
     }
 
     Vector3 GetPlayerGroundPosition()

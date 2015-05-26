@@ -1,0 +1,3230 @@
+fileFormatVersion: 2
+guid: 99ada062a44424348817dc134a0953a7
+timeCreated: 1432645399
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ankle_jnt_lf
+    100002: ankle_jnt_rt
+    100004: ball_jnt_lf
+    100006: ball_jnt_rt
+    100008: //RootNode
+    100010: clavicle_jnt_lf
+    100012: clavicle_jnt_rt
+    100014: COG_jnt_c
+    100016: elbow_jnt_lf
+    100018: elbow_jnt_rt
+    100020: eye_jnt_lf
+    100022: eye_jnt_rt
+    100024: hammer_jnt
+    100026: head_jnt_c
+    100028: index01_jnt_lf
+    100030: index01_jnt_rt
+    100032: index02_jnt_lf
+    100034: index02_jnt_rt
+    100036: jaw_jnt_c
+    100038: knee_jnt_lf
+    100040: knee_jnt_rt
+    100042: middle01_jnt_lf1
+    100044: middle01_jnt_rt1
+    100046: middle02_jnt_lf
+    100048: middle02_jnt_rt
+    100050: neck_jnt_c
+    100052: pelvis_jnt_c
+    100054: perspShape
+    100056: pinky01_jnt_lf3
+    100058: pinky01_jnt_rt3
+    100060: pinky02_jnt_lf
+    100062: pinky02_jnt_rt
+    100064: ring01_jnt_lf2
+    100066: ring01_jnt_rt2
+    100068: ring02_jnt_lf
+    100070: ring02_jnt_rt
+    100072: shoulder_jnt_lf
+    100074: shoulder_jnt_rt
+    100076: spine01_jnt_c
+    100078: spine02_jnt_c
+    100080: thigh_jnt_lf
+    100082: thigh_jnt_rt
+    100084: thumb01_jnt_lf
+    100086: thumb01_jnt_rt
+    100088: thumb02_jnt_lf
+    100090: thumb02_jnt_rt
+    100092: toe_jnt_lf
+    100094: toe_jnt_rt
+    100096: U3DMesh
+    100098: wrist_jnt_lf
+    100100: wrist_jnt_rt
+    400000: ankle_jnt_lf
+    400002: ankle_jnt_rt
+    400004: ball_jnt_lf
+    400006: ball_jnt_rt
+    400008: //RootNode
+    400010: clavicle_jnt_lf
+    400012: clavicle_jnt_rt
+    400014: COG_jnt_c
+    400016: elbow_jnt_lf
+    400018: elbow_jnt_rt
+    400020: eye_jnt_lf
+    400022: eye_jnt_rt
+    400024: hammer_jnt
+    400026: head_jnt_c
+    400028: index01_jnt_lf
+    400030: index01_jnt_rt
+    400032: index02_jnt_lf
+    400034: index02_jnt_rt
+    400036: jaw_jnt_c
+    400038: knee_jnt_lf
+    400040: knee_jnt_rt
+    400042: middle01_jnt_lf1
+    400044: middle01_jnt_rt1
+    400046: middle02_jnt_lf
+    400048: middle02_jnt_rt
+    400050: neck_jnt_c
+    400052: pelvis_jnt_c
+    400054: perspShape
+    400056: pinky01_jnt_lf3
+    400058: pinky01_jnt_rt3
+    400060: pinky02_jnt_lf
+    400062: pinky02_jnt_rt
+    400064: ring01_jnt_lf2
+    400066: ring01_jnt_rt2
+    400068: ring02_jnt_lf
+    400070: ring02_jnt_rt
+    400072: shoulder_jnt_lf
+    400074: shoulder_jnt_rt
+    400076: spine01_jnt_c
+    400078: spine02_jnt_c
+    400080: thigh_jnt_lf
+    400082: thigh_jnt_rt
+    400084: thumb01_jnt_lf
+    400086: thumb01_jnt_rt
+    400088: thumb02_jnt_lf
+    400090: thumb02_jnt_rt
+    400092: toe_jnt_lf
+    400094: toe_jnt_rt
+    400096: U3DMesh
+    400098: wrist_jnt_lf
+    400100: wrist_jnt_rt
+    4300000: U3DMesh
+    7400000: OneTake
+    7400002: idle
+    7400004: walk
+    7400006: run
+    7400008: attack_idle
+    7400010: attack1
+    7400012: attack2
+    7400014: attack3
+    7400016: attack4
+    7400018: attack5
+    7400020: jump
+    7400022: hit
+    7400024: death
+    7400026: recover
+    7400028: taunt
+    7400030: DstrafeRight
+    7400032: strafeLeft
+    7400034: dodgeRight
+    7400036: dodgeLeft
+    7400038: attack_idle0
+    7400040: strafeLeft
+    9500000: //RootNode
+    13700000: U3DMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: OneTake
+      takeName: OneTake
+      firstFrame: 1
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack_idle
+      takeName: attack_idle
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack1
+      takeName: attack1
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack2
+      takeName: attack2
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack3
+      takeName: attack3
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack4
+      takeName: attack4
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack5
+      takeName: attack5
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: jump
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit
+      takeName: hit
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death
+      takeName: death
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: recover
+      takeName: recover
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: taunt
+      takeName: taunt
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: strafeLeft
+      takeName: strafeLeft
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DstrafeRight
+      takeName: DstrafeRight
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: dodgeRight
+      takeName: dodgeRight
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: dodgeLeft
+      takeName: dodgeLeft
+      firstFrame: 0
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG_jnt_c
+        weight: 1
+      - path: COG_jnt_c/hammer_jnt
+        weight: 0
+      - path: COG_jnt_c/pelvis_jnt_c
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_lf/knee_jnt_lf/ankle_jnt_lf/ball_jnt_lf/toe_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/pelvis_jnt_c/thigh_jnt_rt/knee_jnt_rt/ankle_jnt_rt/ball_jnt_rt/toe_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/index01_jnt_lf/index02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/middle01_jnt_lf1/middle02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/pinky01_jnt_lf3/pinky02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/ring01_jnt_lf2/ring02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_lf/shoulder_jnt_lf/elbow_jnt_lf/wrist_jnt_lf/thumb01_jnt_lf/thumb02_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/index01_jnt_rt/index02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/middle01_jnt_rt1/middle02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/pinky01_jnt_rt3/pinky02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/ring01_jnt_rt2/ring02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/clavicle_jnt_rt/shoulder_jnt_rt/elbow_jnt_rt/wrist_jnt_rt/thumb01_jnt_rt/thumb02_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_lf
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/eye_jnt_rt
+        weight: 1
+      - path: COG_jnt_c/spine01_jnt_c/spine02_jnt_c/neck_jnt_c/head_jnt_c/jaw_jnt_c
+        weight: 1
+      - path: perspShape
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: COG_jnt_c
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_jnt_lf
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_jnt_rt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: knee_jnt_lf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: knee_jnt_rt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ankle_jnt_lf
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ankle_jnt_rt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine01_jnt_c
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine02_jnt_c
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck_jnt_c
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head_jnt_c
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle_jnt_lf
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle_jnt_rt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_jnt_lf
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_jnt_rt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: elbow_jnt_lf
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: elbow_jnt_rt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: wrist_jnt_lf
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: wrist_jnt_rt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe_jnt_lf
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe_jnt_rt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye_jnt_lf
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye_jnt_rt
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jaw_jnt_c
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb01_jnt_lf
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb02_jnt_lf
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index01_jnt_lf
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index02_jnt_lf
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle01_jnt_lf1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle02_jnt_lf
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring01_jnt_lf2
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring02_jnt_lf
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky01_jnt_lf3
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky02_jnt_lf
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb01_jnt_rt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb02_jnt_rt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index01_jnt_rt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index02_jnt_rt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle01_jnt_rt1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle02_jnt_rt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring01_jnt_rt2
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring02_jnt_rt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky01_jnt_rt3
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky02_jnt_rt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: berserkerlow_animationsplit(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: perspShape
+      position: {x: .100673079, y: 1.07081985, z: 3.61049485}
+      rotation: {x: .99769491, y: -.00145134272, z: -.0226408653, w: -.0639550388}
+      scale: {x: .99999994, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: U3DMesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: COG_jnt_c
+      position: {x: .00214201212, y: .536900759, z: .0295660198}
+      rotation: {x: -.00149014662, y: -.0367179736, z: .0405227952, w: .998502612}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: spine01_jnt_c
+      position: {x: 1.70196712e-17, y: .0653207079, z: -.0104328021}
+      rotation: {x: .471590132, y: -.50640893, z: -.39539209, w: .604001522}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine02_jnt_c
+      position: {x: -.0891036317, y: 3.5527136e-17, z: -2.29868132e-17}
+      rotation: {x: .00667263893, y: -.0827757046, z: .0508478098, w: .995247781}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: neck_jnt_c
+      position: {x: -.0805402473, y: -1.42108544e-16, z: -2.53986568e-17}
+      rotation: {x: .946412563, y: -.322851539, z: -.0075087538, w: -.00371131254}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_jnt_c
+      position: {x: -.0561081767, y: -1.42108544e-16, z: 1.08760172e-17}
+      rotation: {x: -.0850861296, y: .085088715, z: -.273657978, w: .954270184}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: jaw_jnt_c
+      position: {x: -.00490569463, y: -.00809379946, z: 1.79148362e-17}
+      rotation: {x: 0, y: 0, z: .873513818, w: .4867993}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye_jnt_rt
+      position: {x: -.0309455004, y: -.0349754766, z: .0121853799}
+      rotation: {x: -.5, y: -.49999997, z: .5, w: .5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye_jnt_lf
+      position: {x: -.0309455004, y: -.0349754728, z: -.012185378}
+      rotation: {x: -.5, y: -.49999997, z: .5, w: .5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavicle_jnt_lf
+      position: {x: .00872673187, y: -.0071418914, z: .0234520864}
+      rotation: {x: .164079651, y: .588380098, z: -.131646618, w: .780740619}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder_jnt_lf
+      position: {x: -.0936777741, y: -2.6645352e-17, z: -4.97379917e-16}
+      rotation: {x: -.0520729162, y: .16236192, z: -.0653077066, w: .983189642}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_jnt_lf
+      position: {x: -.114768952, y: 5.55111512e-17, z: -1.06581404e-15}
+      rotation: {x: .0330021866, y: .00286316127, z: -.0222549196, w: .999203444}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wrist_jnt_lf
+      position: {x: -.144409731, y: -6.62648963e-11, z: 8.81446638e-10}
+      rotation: {x: .0820378065, y: -.0374772325, z: .125184044, w: .988025427}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb01_jnt_lf
+      position: {x: -.024664972, y: .0215810277, z: .0317952558}
+      rotation: {x: .0854511186, y: -.0755809918, z: -.397725552, w: .910384536}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb02_jnt_lf
+      position: {x: -.0220788289, y: -2.6645351e-16, z: -5.68434176e-16}
+      rotation: {x: 0, y: 0, z: .218577057, w: .975819707}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index01_jnt_lf
+      position: {x: -.0574691705, y: .0277553424, z: .0123976646}
+      rotation: {x: -.542288125, y: .145392433, z: .0374444649, w: .826669633}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index02_jnt_lf
+      position: {x: -.0302118603, y: 7.1054272e-17, z: 9.76996256e-17}
+      rotation: {x: 0, y: 0, z: .147797257, w: .989017665}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle01_jnt_lf1
+      position: {x: -.0677593276, y: .0123544857, z: .0107564135}
+      rotation: {x: -.616690814, y: .133831039, z: .048195634, w: .774247289}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle02_jnt_lf
+      position: {x: -.0316227563, y: 1.42108544e-16, z: 4.44089183e-17}
+      rotation: {x: 0, y: 0, z: .202195764, w: .979345143}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring01_jnt_lf2
+      position: {x: -.0657707378, y: -.00567391189, z: .00819867291}
+      rotation: {x: -.657986343, y: .135421023, z: .0506984368, w: .739016175}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring02_jnt_lf
+      position: {x: -.0264141597, y: -6.39488435e-16, z: 1.12132524e-16}
+      rotation: {x: 0, y: 0, z: .207087532, w: .978322446}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky01_jnt_lf3
+      position: {x: -.0594388992, y: -.0240250248, z: .00880532339}
+      rotation: {x: -.713934779, y: .140804872, z: .053393662, w: .683827639}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky02_jnt_lf
+      position: {x: -.016925456, y: -7.1054272e-17, z: 1.28785867e-16}
+      rotation: {x: 0, y: 0, z: .0924926922, w: .995713413}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavicle_jnt_rt
+      position: {x: -.00562223792, y: -.00196922407, z: -.0235186182}
+      rotation: {x: -.551155329, y: .210002542, z: .797803283, w: .125046283}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder_jnt_rt
+      position: {x: .0936780721, y: 2.01319157e-08, z: 3.38004355e-07}
+      rotation: {x: -.184212878, y: .0966243222, z: .0142673943, w: .978021383}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_jnt_rt
+      position: {x: .145549506, y: -.0153967701, z: -.0233487226}
+      rotation: {x: -.146501824, y: .0739042163, z: -.0428319722, w: .985515535}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wrist_jnt_rt
+      position: {x: .144409418, y: -1.18039711e-08, z: -1.18209655e-07}
+      rotation: {x: -.217285812, y: .0718995929, z: -.199307531, w: .952834666}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb01_jnt_rt
+      position: {x: .0246657524, y: -.021580888, z: -.0317952074}
+      rotation: {x: .201042086, y: .287471056, z: -.348830938, w: .869056702}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb02_jnt_rt
+      position: {x: .0220783129, y: -1.42188995e-07, z: 2.62136695e-07}
+      rotation: {x: 0, y: 0, z: .595877945, w: .803075016}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index01_jnt_rt
+      position: {x: .0602413975, y: -.0267838184, z: -.0113018472}
+      rotation: {x: -.581816673, y: .146740615, z: .0151887247, w: .799828708}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index02_jnt_rt
+      position: {x: .0302116927, y: 5.1347638e-07, z: -3.03565145e-07}
+      rotation: {x: -.0642713383, y: .0342197269, z: .751274884, w: .655960679}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle01_jnt_rt1
+      position: {x: .0677594617, y: -.0123544382, z: -.0107567329}
+      rotation: {x: -.700947344, y: .144340456, z: .0325746462, w: .69769454}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle02_jnt_rt
+      position: {x: .0316226743, y: -8.16567592e-07, z: 1.79662237e-07}
+      rotation: {x: 0, y: 0, z: .723370135, w: .690460443}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring01_jnt_rt2
+      position: {x: .0650751069, y: -.000439221389, z: -.0100126108}
+      rotation: {x: -.741593122, y: .141761765, z: .0390482433, w: .654536784}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring02_jnt_rt
+      position: {x: .0264141839, y: -1.02391859e-07, z: 6.89425228e-09}
+      rotation: {x: 1.19037367e-08, y: -4.98342301e-09, z: .726811707, w: .686836779}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky01_jnt_rt3
+      position: {x: .058179047, y: .0140050752, z: -.0146498112}
+      rotation: {x: -.769181848, y: .143993005, z: .0476374552, w: .620770454}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky02_jnt_rt
+      position: {x: .0169264209, y: -1.61702758e-07, z: 1.31996501e-07}
+      rotation: {x: 0, y: 0, z: .488724768, w: .872438014}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pelvis_jnt_c
+      position: {x: -.0139147909, y: -.0938206688, z: -.00196235022}
+      rotation: {x: 0, y: 0, z: .653181493, w: .757201374}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh_jnt_lf
+      position: {x: .0498780087, y: .0414360911, z: -.00921565201}
+      rotation: {x: -.71622169, y: -.0554274954, z: .00883495621, w: .695612192}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_jnt_lf
+      position: {x: -.213885605, y: -8.88178367e-17, z: 2.6645351e-16}
+      rotation: {x: .0238792431, y: .00119504845, z: -.0499886982, w: .998463571}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ankle_jnt_lf
+      position: {x: -.218787268, y: -1.46549432e-16, z: 2.6645352e-17}
+      rotation: {x: -.0430449396, y: .0810892731, z: .319019079, w: .943291306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ball_jnt_lf
+      position: {x: -.0606823415, y: -6.66133775e-17, z: 1.7763568e-17}
+      rotation: {x: -.0328540877, y: .0198173318, z: .516123891, w: .85565412}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: toe_jnt_lf
+      position: {x: -.0451599285, y: 2.77555756e-17, z: 0}
+      rotation: {x: .0207351949, y: 0, z: -0, w: .999785006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh_jnt_rt
+      position: {x: .0498781763, y: -.0414360985, z: -.00921565015}
+      rotation: {x: -.0903240815, y: .616978467, z: .772545934, w: -.119799495}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_jnt_rt
+      position: {x: .213885367, y: 5.13010256e-09, z: 1.15897523e-08}
+      rotation: {x: .0238883998, y: .000993280904, z: -.0415846035, w: .998848915}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ankle_jnt_rt
+      position: {x: .21878764, y: 1.07020391e-07, z: 3.98338074e-08}
+      rotation: {x: -.0789947733, y: -.044195462, z: .239524797, w: .966661513}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ball_jnt_rt
+      position: {x: .0606822968, y: 2.24052634e-08, z: -5.97398966e-08}
+      rotation: {x: -.0328541324, y: .0198172536, z: .516123712, w: .85565424}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: toe_jnt_rt
+      position: {x: .0451599024, y: -6.68467877e-08, z: 2.81798531e-08}
+      rotation: {x: .0207351949, y: 0, z: -0, w: .999785006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hammer_jnt
+      position: {x: .0701827779, y: .252816856, z: -.0390063748}
+      rotation: {x: .904289544, y: -.159526482, z: .384866714, w: .0932168216}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
