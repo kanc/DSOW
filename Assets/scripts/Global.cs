@@ -30,9 +30,11 @@ namespace GlobalData
     public static class Constants
     {        
         public static string    ENEMY_TAG = "Enemy";
-        public static int       INTERACTUABLE_COLLIDER_LAYER = 8;
+        public static int       INTERACTUABLE_COLLIDER_LAYER = 8;        
         public static int       GROUND_COLLIDER_LAYER = 9;
+        public static int       ZOMBIE_COLLIDER_LAYER = 10;
         public static string    ZOMBIE_SPEED_PARAM = "Speed";
+        public static string    ZOMBIE_ALIVE_PARAM = "Alive";
         public static string    ZOMBIE_HIT_PARAM = "Hit";
         public static string    ZOMBIE_ATTACK_PARAM = "Attacking";
         public static string    ZOMBIE_DEATH_PARAM = "Death";

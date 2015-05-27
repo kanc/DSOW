@@ -8,6 +8,7 @@ public class ZombieAI : MonoBehaviour {
     public bool     RandomSpeed;
     public float    AttackRangeSquare = 4;
     public float    TimeToDestroyCorpse = 2;
+    public GameObject HitBloodSplash;
 
     private float       CloseOffset;
     private GameObject  m_Player;
@@ -18,6 +19,7 @@ public class ZombieAI : MonoBehaviour {
     private float       m_fCurrentSpeed;
     private float       m_fElapsedTime;
     private GlobalData.ZombieState m_eState;
+    private bool m_bHit = false;
 
     // Use this for initialization
 	void Start () {
@@ -46,7 +48,7 @@ public class ZombieAI : MonoBehaviour {
         WalkType = Random.value;
 
         //get zombie speed
-        Speed = (RandomSpeed) ? Random.Range(0.0f,2.0f) : Speed;
+        Speed = (RandomSpeed) ? Random.Range(0.2f,2.0f) : Speed;
 
         //initial state
         m_eState = GlobalData.ZombieState.Rising;        
@@ -59,14 +61,46 @@ public class ZombieAI : MonoBehaviour {
         {
             case GlobalData.ZombieState.Rising: OnUpdateRising();       break;
             case GlobalData.ZombieState.Moving: OnUpdateMoving();       break;
-            case GlobalData.ZombieState.Attack: OnUpdateAttacking();    break;            
+            case GlobalData.ZombieState.Attack: OnUpdateAttacking();    break;
+            case GlobalData.ZombieState.Death: OnUpdateDeath(); break;            
         }
 
-        if (Health <= 0)
+        //chech when it animation (state) is finished
+        if (m_bHit)
         {
+            if (!m_Animator.GetNextAnimatorStateInfo(0).IsName("Hit"))
+            {
+                m_bHit = false;                
+            }
+        }
+
+        //zombie is death...
+        if (Health <= 0 && m_eState != GlobalData.ZombieState.Death)
+        {
+            Debug.Log("cambiando a estado muerte");
             ChangeState(GlobalData.ZombieState.Death);
         }
 	}
+
+    public void DamageDone(float damage, Vector3 hitPosition)
+    {
+
+        //we dont want to damage zombie when is rising or is already dead
+        if (m_eState != GlobalData.ZombieState.Death && m_eState != GlobalData.ZombieState.Rising)
+        {
+            //trigger hit animation state
+            m_Animator.SetTrigger(GlobalData.Constants.ZOMBIE_HIT_PARAM);
+            Health -= damage;
+            m_bHit = true;        
+        }
+
+        //instantiate blood effect
+        if (HitBloodSplash != null)
+        {
+            Instantiate(HitBloodSplash, hitPosition, Quaternion.identity);
+        } 
+
+    }
 
     void ChangeState(GlobalData.ZombieState newState)
     {
@@ -108,6 +142,9 @@ public class ZombieAI : MonoBehaviour {
 
     void OnUpdateMoving()
     {
+        //if zombie has been hit dont move it
+        if (m_bHit) return;
+
         //increment speed over time until reach zombie speed
         if (m_fCurrentSpeed < Speed)
         {            
@@ -157,16 +194,20 @@ public class ZombieAI : MonoBehaviour {
 
     void OnEnterDeath()
     {
+        m_Animator.SetBool(GlobalData.Constants.ZOMBIE_ALIVE_PARAM, false);
         m_Animator.SetTrigger(GlobalData.Constants.ZOMBIE_DEATH_PARAM);
+        m_fElapsedTime = 0;
     }
 
     void OnUpdateDeath()
     {
+        Debug.Log(m_fElapsedTime);
         m_fElapsedTime += Time.deltaTime;
 
         if (m_fElapsedTime > TimeToDestroyCorpse)
         {
             GameObject.Destroy(gameObject);
+            Debug.Log("cuerpo destruido");
         }
     }
 
@@ -222,15 +263,6 @@ public class ZombieAI : MonoBehaviour {
             m_vGroundPos = hit.point + new Vector3(0,0.01f,0);
         }
 
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("algo entro");
-
-        if (other.gameObject.GetComponent<Player>() != null)
-            Debug.Log("daño!");
-        
     }
 
     
