@@ -241,14 +241,6 @@
     <None Include="Assets\Plugins\MeshMaker\UndoRedo\geom_undo7.xml" />
     <None Include="Assets\Plugins\MeshMaker\UndoRedo\geom_undo8.xml" />
     <None Include="Assets\Plugins\MeshMaker\UndoRedo\geom_undo9.xml" />
-    <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\Billboard.shader" />
-    <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\NewShader.shader" />
-    <None Include="Assets\RFPSP\Demo\Other\Water\Shaders\FX-Water Simple With Alpha.shader" />
-    <None Include="Assets\RFPSP\Demo\Other\Water\Shaders\FXWaterBasicWithAlpha.shader" />
-    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
-    <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\RFPSP\Shaders\DecalShader.shader" />
     <None Include="Assets\RFPSP\Shaders\Projector Multiply.shader" />
     <None Include="Assets\RFPSP\Shaders\WaterShader.shader" />
@@ -338,5 +330,5 @@
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

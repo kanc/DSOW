@@ -4,15 +4,13 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
     public float Health = 100f;
-    public Animator AnimControl;
-    public GameObject PlayerObject;
     public Camera MainCamera;
-    public Vector3 CharOffset;
+    public Animator PlayerAnimator;
+    public Transform ShootingPoint;
     private bool m_bAccessCard = true;
-
+    
     // Use this for initialization
-	void Start () {
-        
+	void Start () {        
 	}
 	
 	// Update is called once per frame
@@ -35,12 +33,6 @@ public class Player : MonoBehaviour {
                 }
             }            
         }
-
-        //correct body position (animations despla
-        //PlayerObject.transform.localPosition = CharOffset;
-
-        AnimControl.SetFloat("SpeedH", Input.GetAxis("Horizontal"));
-        AnimControl.SetFloat("SpeedV", Input.GetAxis("Vertical"));
 	
 	}
 
